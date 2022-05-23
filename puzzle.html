@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./puzzle.css" rel="stylesheet" type="text/css">
+    <title>Image Puzzle</title>
+    </head>
+  <body>
+    <div class="main">
+      <div class="sub">
+        <div class="pos">
+          <div class="container">
+            <div
+            id="piece-16-container"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            >
+              <div
+              id="piece-16"
+              class="puzzle piece-16"
+              draggable="true"
+              ondragstart="drag(event)"
+              ></div>
+            </div>
+            <div
+            id="piece-7-container"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            >
+              <div
+              id="piece-7"
+              class="puzzle piece-7"
+              draggable="true"
+              ondragstart="drag(event)"
+              ></div>
+            </div>
+            <div
+            id="piece-10-container"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            >
+              <div
+              id="piece-10"
+              class="puzzle piece-10"
+              draggable="true"
+              ondragstart="drag(event)"
+              ></div>
+            </div>
+            <div
+            id="piece-8-container"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            >
+              <div
+              id="piece-8"
+              class="puzzle piece-8"
+              draggable="true"
+              ondragstart="drag(event)"
+              ></div>
+            </div>
+          </div>
+          <div class="container">
+            <div
+            id="piece-12-container"
+            ondrop="drop(event)"
+            ondragover="allowDrop(event)"
+            >
+            <div
+            id="piece-12"
+            class="puzzle piece-12"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-15-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-15"
+            class="puzzle piece-15"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-2-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-2"
+            class="puzzle piece-2"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-4-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-4"
+            class="puzzle piece-4"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+          id="piece-14-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-14"
+            class="puzzle piece-14"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-3-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-3"
+            class="puzzle piece-3"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-13-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-13"
+            class="puzzle piece-13"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-5-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-5"
+            class="puzzle piece-5"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+        </div>
+        <div class="container">
+          <div
+          id="piece-11-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-11"
+            class="puzzle piece-11"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-9-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-9"
+            class="puzzle piece-9"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-6-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-6"
+            class="puzzle piece-6"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+          <div
+          id="piece-1-container"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+          >
+            <div
+            id="piece-1"
+            class="puzzle piece-1"
+            draggable="true"
+            ondragstart="drag(event)"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="img">
+    <div class="full-image"></div>
+    </div>
+    <div id="stop-watch">
+      <h2 id="display">00:00:00</h2>
+    </div>
+    <div class="interact">
+      <button id="btn1" onclick="initiate()">Start</button>
+      <button id="btn3" onclick="reset()">Reset</button>
+    </div>
+    <div id="msg">
+      <h1 id="msg1"></h1>
+    </div>
+  </div>
+  <script src="/MS/init/MS03/script.js"></script>
+  </body>
+</html>
